@@ -1,0 +1,13 @@
+br\imd\ufrn\application\gateway\GatewayRegistry.class
+br\imd\ufrn\application\models\Message.class
+br\imd\ufrn\application\services\MessageService.class
+br\imd\ufrn\application\gateway\APIGatewayApplication.class
+br\imd\ufrn\application\gateway\UsersGatewayController.class
+br\imd\ufrn\application\models\User.class
+br\imd\ufrn\application\HTTP\HTTPMarshaller.class
+br\imd\ufrn\application\services\MessageServiceApplication.class
+br\imd\ufrn\application\services\UserService.class
+br\imd\ufrn\application\gateway\MessagesGatewayController.class
+br\imd\ufrn\application\models\ServiceRecord.class
+br\imd\ufrn\application\gateway\MiddlewareConfig.class
+br\imd\ufrn\application\services\UserServiceApplication.class

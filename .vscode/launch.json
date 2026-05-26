@@ -1,0 +1,85 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "TCP Gateway",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.gateway.APIGatewayApplication",
+      "projectName": "remote-service",
+      "args": "8080 tcp"
+    },
+    {
+      "type": "java",
+      "name": "TCP Message Service 9005",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.MessageServiceApplication",
+      "projectName": "remote-service",
+      "args": "9005 tcp"
+    },
+    {
+      "type": "java",
+      "name": "TCP Message Service 9006",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.MessageServiceApplication",
+      "projectName": "remote-service",
+      "args": "9006 tcp"
+    },
+    {
+      "type": "java",
+      "name": "TCP User Service 9007",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.UserServiceApplication",
+      "projectName": "remote-service",
+      "args": "9007 tcp"
+    },
+    {
+      "type": "java",
+      "name": "TCP User Service 9008",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.UserServiceApplication",
+      "projectName": "remote-service",
+      "args": "9008 tcp"
+    },
+    {
+      "type": "java",
+      "name": "UDP Gateway",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.gateway.APIGatewayApplication",
+      "projectName": "remote-service",
+      "args": "8080 udp"
+    },
+    {
+      "type": "java",
+      "name": "UDP Message Service 9005",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.MessageServiceApplication",
+      "projectName": "remote-service",
+      "args": "9005 udp"
+    },
+    {
+      "type": "java",
+      "name": "UDP Message Service 9006",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.MessageServiceApplication",
+      "projectName": "remote-service",
+      "args": "9006 udp"
+    },
+    {
+      "type": "java",
+      "name": "UDP User Service 9007",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.UserServiceApplication",
+      "projectName": "remote-service",
+      "args": "9007 udp"
+    },
+    {
+      "type": "java",
+      "name": "UDP User Service 9008",
+      "request": "launch",
+      "mainClass": "br.imd.ufrn.application.services.UserServiceApplication",
+      "projectName": "remote-service",
+      "args": "9008 udp"
+    }
+  ]
+}
